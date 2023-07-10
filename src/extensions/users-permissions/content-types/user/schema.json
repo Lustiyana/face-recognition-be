@@ -84,6 +84,9 @@
     },
     "angkatan": {
       "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
     }
   }
 }
