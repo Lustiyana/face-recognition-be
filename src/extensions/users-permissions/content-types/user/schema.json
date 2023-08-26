@@ -87,6 +87,12 @@
     },
     "phone": {
       "type": "biginteger"
+    },
+    "attendances": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::attendance.attendance",
+      "mappedBy": "user"
     }
   }
 }
